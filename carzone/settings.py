@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pages.apps.PagesConfig',
     'cars.apps.CarsConfig',
+    'contacts.apps.ContactsConfig',
+    'accounts.apps.AccountsConfig',
     'ckeditor',
     'django.contrib.humanize',
 ]
@@ -139,3 +141,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #media settings
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+    messages.SUCCESS: 'danger',
+    messages.ERROR: 'danger',
+
+}
