@@ -1,0 +1,567 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$s6XahsgJ3jbmCSRqylxbpp$Sdx3OA1k/zHO9wG4QbBl+Znj+P/lYfPF66+rPzzk1KE=",
+        "last_login": "2022-11-15T16:30:11.332Z",
+        "is_superuser": true,
+        "username": "charumathin",
+        "first_name": "",
+        "last_name": "",
+        "email": "charumathi.n1997@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-11-14T14:54:57.113Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$vcloaxuk56yYaWPyRDse7g$AA43pe8dGobSleSfZhQoTdhbS9xL+XPFZ9BKycUIV3k=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Leclerc",
+        "first_name": "Charles",
+        "last_name": "Leclerc",
+        "email": "charles@f1.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-11-15T16:26:02Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "change_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "delete_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "view_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "add_group",
+                "auth",
+                "group"
+            ],
+            [
+                "change_group",
+                "auth",
+                "group"
+            ],
+            [
+                "delete_group",
+                "auth",
+                "group"
+            ],
+            [
+                "view_group",
+                "auth",
+                "group"
+            ],
+            [
+                "add_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "change_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "delete_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "view_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "add_user",
+                "auth",
+                "user"
+            ],
+            [
+                "change_user",
+                "auth",
+                "user"
+            ],
+            [
+                "delete_user",
+                "auth",
+                "user"
+            ],
+            [
+                "view_user",
+                "auth",
+                "user"
+            ],
+            [
+                "add_car",
+                "cars",
+                "car"
+            ],
+            [
+                "change_car",
+                "cars",
+                "car"
+            ],
+            [
+                "delete_car",
+                "cars",
+                "car"
+            ],
+            [
+                "view_car",
+                "cars",
+                "car"
+            ],
+            [
+                "add_contact",
+                "contacts",
+                "contact"
+            ],
+            [
+                "change_contact",
+                "contacts",
+                "contact"
+            ],
+            [
+                "delete_contact",
+                "contacts",
+                "contact"
+            ],
+            [
+                "view_contact",
+                "contacts",
+                "contact"
+            ],
+            [
+                "add_contenttype",
+                "contenttypes",
+                "contenttype"
+            ],
+            [
+                "change_contenttype",
+                "contenttypes",
+                "contenttype"
+            ],
+            [
+                "delete_contenttype",
+                "contenttypes",
+                "contenttype"
+            ],
+            [
+                "view_contenttype",
+                "contenttypes",
+                "contenttype"
+            ],
+            [
+                "add_team",
+                "pages",
+                "team"
+            ],
+            [
+                "change_team",
+                "pages",
+                "team"
+            ],
+            [
+                "delete_team",
+                "pages",
+                "team"
+            ],
+            [
+                "view_team",
+                "pages",
+                "team"
+            ],
+            [
+                "add_session",
+                "sessions",
+                "session"
+            ],
+            [
+                "change_session",
+                "sessions",
+                "session"
+            ],
+            [
+                "delete_session",
+                "sessions",
+                "session"
+            ],
+            [
+                "view_session",
+                "sessions",
+                "session"
+            ]
+        ]
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Pam",
+        "last_name": "Beesely",
+        "designation": "Office manager",
+        "photo": "photos/22/11/15/image1.jpg",
+        "facebook": "http://www.facebook.com",
+        "twitter": "http://www.twitter.com",
+        "google_plus": "http://www.gplus.com",
+        "created_date": "2022-11-15T16:27:58.268Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Micheal",
+        "last_name": "Scott",
+        "designation": "Manager",
+        "photo": "photos/22/11/15/public_relations_manager.jpg",
+        "facebook": "http://www.facebook.com",
+        "twitter": "http://www.twitter.com",
+        "google_plus": "http://www.google.com",
+        "created_date": "2022-11-15T16:29:29.007Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Dwight",
+        "last_name": "Schrute",
+        "designation": "Asst Regional Manager",
+        "photo": "photos/22/11/15/phot.jpg",
+        "facebook": "http://www.facebook.com",
+        "twitter": "http://www.twitter.com",
+        "google_plus": "http://www.facebook.com",
+        "created_date": "2022-11-15T17:01:46.995Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Andrew",
+        "last_name": "Bernard",
+        "designation": "Inside Sales team",
+        "photo": "photos/22/11/15/ter.jpg",
+        "facebook": "http://www.facebook.com",
+        "twitter": "http://www.facebook.com",
+        "google_plus": "http://www.facebook.com",
+        "created_date": "2022-11-15T17:03:08.402Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "Ferrari",
+        "state": "IL",
+        "city": "Chicago",
+        "color": "Red",
+        "model": "F8",
+        "year": 2018,
+        "condition": "Excellent",
+        "price": 3000000,
+        "description": "Ferrari had showcased its latest mid-engined supercar – the F8 Tributo – at the 2019 Geneva motor show, which was held earlier this year. The latest mid-engine offering from Ferrari, as the name suggests, pays tribute to Ferrari’s older V8 Berlinetta models. This model is also expected to be the last non-hybrid V8 supercar the brand will produce.",
+        "car_photo_1": "photos/2022/11/15/f8.jpg",
+        "car_photo_2": "photos/2022/11/15/ferrari.jpg",
+        "car_photo_3": "photos/2022/11/15/images-2.jpeg",
+        "car_photo_4": "photos/2022/11/15/images.jpeg",
+        "body_style": "Coupe",
+        "engine": "Petrol",
+        "transmission": "7-speed automatic",
+        "interior": "Good",
+        "miles": 775,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "5763",
+        "milage": 6000,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2022-11-15T15:02:32Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "Porche",
+        "state": "NY",
+        "city": "Buffalo",
+        "color": "Blue",
+        "model": "911 GT3",
+        "year": 2012,
+        "condition": "Good",
+        "price": 1000000,
+        "description": "Porsche 911 GT3 is the petrol variant in the Porsche 911 lineup and is priced at ₹ 2.55 Crore.It returns a certified mileage of 9 kmpl.",
+        "car_photo_1": "photos/2022/11/15/Screenshot_2022-11-15_at_9.52.49_PM.png",
+        "car_photo_2": "photos/2022/11/15/Screenshot_2022-11-15_at_9.52.39_PM.png",
+        "car_photo_3": "photos/2022/11/15/images-3.jpeg",
+        "car_photo_4": "photos/2022/11/15/Screenshot_2022-11-15_at_9.52.22_PM.png",
+        "body_style": "Coupe",
+        "engine": "3996 cc",
+        "transmission": "Manual",
+        "interior": "Glove Compartment,Digital Clock",
+        "miles": 900000,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "765249817",
+        "milage": 9,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-11-15T15:07:22Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "Mercedes Benz",
+        "state": "NY",
+        "city": "New York City",
+        "color": "Grey",
+        "model": "C-Class",
+        "year": 2015,
+        "condition": "Excellent",
+        "price": 3500000,
+        "description": "Mercedes-Benz C-Class price starts at ₹ 55.00 Lakh and goes upto ₹ 61.00 Lakh (Avg. ex-showroom). C-Class comes in 3 variants. C-Class top model price in petrol is ₹ 55.00 Lakh. C-Class base model price in diesel is ₹ 56.00 Lakh. Whereas the price of C-Class automatic version starts from ₹ 55.00 Lakh.",
+        "car_photo_1": "photos/2022/11/15/Screenshot_2022-11-15_at_10.25.38_PM.png",
+        "car_photo_2": "photos/2022/11/15/Screenshot_2022-11-15_at_10.25.12_PM.png",
+        "car_photo_3": "photos/2022/11/15/Screenshot_2022-11-15_at_10.24.57_PM.png",
+        "car_photo_4": "photos/2022/11/15/Screenshot_2022-11-15_at_10.26.12_PM.png",
+        "body_style": "Sports",
+        "engine": "1993 cc",
+        "transmission": "9-speed Automation",
+        "interior": "Touchscreen",
+        "miles": 80,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "67423",
+        "milage": 9,
+        "fuel_type": "Diesel",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2022-11-15T16:53:31Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-11-14T15:53:50.369Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "edad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-11-15T15:07:01.746Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Ferrari",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-11-15T15:07:19.033Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "edad",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-11-15T16:25:01.950Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Porche",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-11-15T16:26:02.625Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "Leclerc",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-11-15T16:26:35.628Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "Leclerc",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"User permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-11-15T16:27:58.272Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Pam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-11-15T16:29:29.009Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Micheal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-11-15T16:59:53.088Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Mercedes Benz",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-11-15T17:01:46.997Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Dwight",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-11-15T17:03:08.404Z",
+        "user": [
+            "charumathin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Andrew",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
