@@ -29,6 +29,8 @@ def car_detail(request, id):
     data = {
         'single_car': single_car
     }
+    # data = 10/0
+    # raise ValueError('A very specific bad thing happened.')
     return render(request, "cars/car_details.html", data)
 
 def search(request):
